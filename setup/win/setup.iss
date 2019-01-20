@@ -6,7 +6,7 @@
     #define AppVersion Copy(AppVersion, 1, RPos('.', AppVersion) - 1)
   #endif
   #undef tmpvar
-;  #define AppVersion AppVersion+'-beta'
+  #define AppVersion AppVersion+'-l'
 #endif
 
 #define AppName "Transmission Remote GUI"
