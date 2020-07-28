@@ -6,7 +6,7 @@
     #define AppVersion Copy(AppVersion, 1, RPos('.', AppVersion) - 1)
   #endif
   #undef tmpvar
-;  #define AppVersion AppVersion+'-beta'
+  #define AppVersion AppVersion+'-labels'
 #endif
 
 #define AppName "Transmission Remote GUI"
@@ -15,7 +15,7 @@
 #define AppURL "https://github.com/transmission-remote-gui/transgui"
 #define AppExeName "transgui.exe"
 #define CurYear GetDateTimeString('yyyy', '', '')
-#include <idp.iss>
+#include "D:\devtools\Inno Download Plugin\idp.iss"
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
